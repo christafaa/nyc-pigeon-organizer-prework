@@ -11,6 +11,6 @@ def nyc_pigeon_organizer(data)
             result[name][trait_type] = [trait.to_s]
           end
         else
-          result[name] = {}
+          result[name] = {trait_type => [trait]}
 
 end
