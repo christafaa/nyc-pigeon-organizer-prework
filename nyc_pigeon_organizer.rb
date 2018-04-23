@@ -12,5 +12,9 @@ def nyc_pigeon_organizer(data)
           end
         else
           result[name] = {trait_type => [trait]}
-
+        end
+      end
+    end
+  end
+  result
 end
