@@ -4,6 +4,6 @@ def nyc_pigeon_organizer(data)
   data.each do |trait_type, traits|
     traits.each do |trait, names|
       names.each do |name|
-        if result
+        if result.has_key?(name)
 
 end
